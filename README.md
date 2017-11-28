@@ -104,6 +104,23 @@ addresses these issues without removing the benefits of search inputs (e.g.
 showing past searches). Safari (but not Chrome) will clip the cancel button on
 when it has padding (and `textfield` appearance).
 
+## Tips
+
+### Use normalize.css with Webpack
+
+After installing the package through `npm`, if you are using webpack, you can:
+
+Import it inside your *scss/sass* files:
+```scss
+@import "~normalize.css";
+```
+
+Import it inside your *js* files:
+```js
+import 'normalize.css';
+```
+
+
 ## Contributing
 
 Please read the [contribution guidelines](CONTRIBUTING.md) in order to make the
